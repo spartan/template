@@ -1,0 +1,47 @@
+{
+    "name": "spartan/template",
+    "description": "Spartan Template library",
+    "type": "library",
+    "keywords": [
+        "library",
+        "spartan",
+        "template"
+    ],
+    "homepage": "https://spartanphp.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iulian N.",
+            "email": "iulian@spartanphp.com",
+            "homepage": "https://spartanphp.com",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "email": "support@spartanphp.com",
+        "docs": "https://docs.spartanphp.com"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spartan\\Template\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spartan\\Template\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
